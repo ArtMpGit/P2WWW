@@ -9,7 +9,7 @@ dateFormatter = (date) => {
 }
 
 preparePageInfo = () => {
-    $('#filter-button').html(showAllCompetitions ? 'Mostrar campeonatos brasileiros' : 'Mostrar todos os campeonatos');
+    $('#filter-button').html(showAllCompetitions ? 'Mostrar competições brasileiros' : 'Mostrar todas as competições');
     buildTableBody(showAllCompetitions ? allCompetitions : brazilianCompetitions);
 }
 
