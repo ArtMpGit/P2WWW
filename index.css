@@ -1,0 +1,11 @@
+body {
+    background-color: #6c757d;
+}
+
+.container {
+    padding: 1rem;
+}
+
+#filter-button {
+    margin-bottom: 1rem;
+}
